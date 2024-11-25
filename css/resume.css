@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     padding: 0;
-    margin: 0;
+    margin: 0; 
+    line-height: 1.5em;
+    box-sizing: border-box;
+    color: var(--mainTextColor);
+}
+body{
+font-family: "Roboto", sans-serif;
+background-color: var(--mainBgColor); 
 }
 :root{
     --mainTextColor-light:#000;
@@ -22,24 +30,15 @@
     width: 200px;
     height: 200px;
 }
-
-*{
-    font-family: 'Readex Pro';
-    line-height: 1.5em;
-    box-sizing: border-box;
-    color: var(--mainTextColor);
-    
+.qqul{
+    padding-left: 30px;
+    padding-top: 10px;
 }
-
-body{
-    background-color: var(--mainBgColor);            
-}
-
 p, span, li{
     color: var(--secondaryTextColor);
     font-size: 1em;
+    
 }
-
 a{
     text-decoration: none;
     color: var(--mainLinkColor);
@@ -72,8 +71,9 @@ li{
 }
 
 .user-name{
-    font-size: 48px;
+    font-size: 40px;
     line-height: 1em;
+    margin-bottom: 10px;
 }
 
 #profile-pic{
@@ -120,7 +120,7 @@ li{
     font-size: 0.9em;
 }
 .card-techstack{
-    border: 1px solid var(--mainBorderColor);
+    border: 2px solid var(--mainBorderColor);
     border-radius: 5px;
     padding: 0.5em 1em;
     align-items: center;
@@ -129,7 +129,26 @@ li{
 .card-project{
     padding-top: 1em;
     padding-bottom: 1em;
-    border-top: 1px solid var(--mainBorderColor);
+    border-top: 1px solid white;
+    border-bottom: solid white 1px;
+}
+.card-project1{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid white;
+    margin-bottom: 10px;
+}
+.awa{
+    list-style: none;
+}
+.rpp{
+    padding-left: 10px;
+    color: white;
+}
+.awards{
+    font-size: 26px;
+    color: rgb(230, 236, 230);
+    background-color: rgb(40, 202, 40);
 }
 
 .card-project a{
@@ -153,6 +172,12 @@ li{
 .line-break{
     background-color: var(--mainBorderColor);
     height: 1px;
+}
+.rps{
+    color:chocolate ;
+}
+.arrow{
+    font-size: 20px;
 }
 /* ----------------------------------------------- */
 
@@ -226,5 +251,9 @@ li{
     .card-work-history{
         border-left: none;
         padding-left: 0;
+    }
+    .list{
+        padding-left: 30px;
+
     }
 }
